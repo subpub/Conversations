@@ -71,7 +71,7 @@ android {
         versionCode 253
         versionName "1.23.6"
         archivesBaseName += "-$versionName"
-        applicationId "eu.siacs.conversations"
+        applicationId "eu.siacs.conversations.debug"
     }
 
     dataBinding {
