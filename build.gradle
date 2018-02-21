@@ -71,7 +71,7 @@ android {
         versionCode 253
         versionName "1.23.6"
         archivesBaseName += "-$versionName"
-        applicationId "eu.siacs.conversations"
+        applicationId "eu.debug.conversations"
     }
 
     dexOptions {
@@ -106,7 +106,6 @@ android {
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
     }
 
 
