@@ -105,9 +105,8 @@ android {
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-        debug {
-            applicationIdSuffix ".debug"
+       }
+       debug {
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
