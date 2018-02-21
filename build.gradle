@@ -94,7 +94,7 @@ android {
     productFlavors {
         playstore {
             dimension "distribution"
-            aApplicationIdSuffix ".play"
+            applicationIdSuffix ".play"
         }
         free {
             dimension "distribution"
