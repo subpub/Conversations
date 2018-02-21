@@ -94,9 +94,11 @@ android {
     productFlavors {
         playstore {
             dimension "distribution"
+            aApplicationIdSuffix ".play"
         }
         free {
             dimension "distribution"
+            applicationIdSuffix ".free"
         }
     }
 
@@ -106,7 +108,7 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-        debug {
+        debug {
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
